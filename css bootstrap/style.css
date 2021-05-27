@@ -1,0 +1,101 @@
+.parent{
+	position: relative;
+	min-height: 100vh;
+	z-index: 1;
+	background: url(../imges/mountain-5795883_1280.jpg) no-repeat center bottom /cover;
+}
+.brand-image {
+	width: 60px;
+}
+.parent:before{
+	content: "";
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;	
+	width: 100%;	
+	height: 100%;
+	background: rgba(77, 90, 86, 0.8);
+}
+.btn-icon {
+	border: none;
+}
+.meet {
+	position: relative;
+	z-index: 1;
+	background: url(../imges/nature.jpg) no-repeat center bottom /cover;
+}
+.meet:before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;	
+	width: 100%;	
+	height: 100%;
+	background: rgba(77, 90, 86, 0.8);
+}
+hr {
+	width: 70px;
+	height: 2px;
+	background-color: #FFC107;
+}
+.second-list {
+	padding: 50px;
+}
+.three {
+	position: relative;
+	z-index: 1;
+	width: 100%;
+	min-height: 500px;
+	background: url(../imges/mountain-5795883_1280.jpg) no-repeat center bottom /cover;
+}
+.three:before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;	
+	width: 100%;	
+	height: 100%;
+	background: rgba(77, 90, 86, 0.6);
+}
+.three button {
+	background: none;
+	border: none;
+	color: white;
+	cursor: pointer ;
+}
+.oq-fon {
+	height: 200px;	
+	background-color: white;
+}
+.card-body {
+	background: rgba(77, 90, 86, 0.6);
+}
+textarea {
+	min-height: 150px;	
+}
+.footer {
+	position: relative;
+	z-index: 1;
+	width: 100%;
+	background: url(../imges/eyeem-126221286.jpg) no-repeat center top /cover;
+}
+.footer:before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;	
+	width: 100%;	
+	height: 100%;
+	background: rgba(77, 90, 86, 0.8);
+}
+.back-home {
+    position: fixed;
+    color: #FFC107;
+    right: 5%;
+    bottom: 5%;
+    z-index: 5;
+}
